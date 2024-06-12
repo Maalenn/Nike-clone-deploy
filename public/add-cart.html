@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="../assets/css/homePage.css" />
+    <link rel="stylesheet" href="../src/input.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Nike.com</title>
+  </head>
+  <body>
+    <!-- Start nav-bar -->
+    <div
+      class="top-0 backdrop-blur-[5px] bg-[rgb(35,33,33,0.2)] w-full hidden h-screen fixed z-[90]"
+      id="background-blur"
+    ></div>
+    <navbar-component> </navbar-component>
+    <!-- End nav-bar -->
+
+    <!-- Start Shopping checkout -->
+    <section class="flex gap-5 justify-center mt-48">
+      <section
+        class="max-w-[91%] mx-auto grid grid-cols-[2fr,1fr] gap-10 max-[820px]:grid-cols-1"
+      >
+        <section class="">
+          <aside class="boder-gary border-[1px] pb-5 px-5 pt-3">
+            <h3 class="text-[#fa654a] text-[22px] text-bold">
+              Member get free shipping on order $50+
+            </h3>
+            <p class="text-[#949292] text-[17px] text-bold">
+              Become a Nike Member for fast free shipping on orders $50+
+              <a
+                class="text-[17px] font-bold border-b-[1px] border-black w-[70px] pb-1 mx-auto"
+                href="joinUs.html"
+                >Join us</a
+              >
+              or
+              <a
+                class="text-[17px] font-bold border-b-[1px] border-black w-[70px] pb-1 mx-auto"
+                href=""
+                >Sign-in</a
+              >
+            </p>
+          </aside>
+          <h1 class="text-[27px] py-10">Bag</h1>
+          <aside>
+            <div class="flex gap-5 w-full">
+              <div class="flex-shrink-0 w-[200px]">
+                <img src="./../assets/Image/w1.png" alt="" />
+              </div>
+              <div class="flex flex-col gap-3">
+                <div class="justify-start">
+                  <div class="flex justify-between max-[600px]:hidden">
+                    <h1 class="text-[17px]">Nike One Classic</h1>
+                    <h1 class="max-[600] float-start text-[17px]">$45.00</h1>
+                  </div>
+                  <div
+                    class="hidden max-[600px]:flex max-[600px]:flex-col justify-between"
+                  >
+                    <h1 class="text-[17px]">$45.00</h1>
+                    <h1 class="max-[600] float-start text-[17px]">
+                      Nike One Classic
+                    </h1>
+                  </div>
+                </div>
+
+                <h1 class="text-[17px] text-[gray]">
+                  Women's Dri-FIT Short-Sleeve Cropped Top
+                </h1>
+                <h1 class="text-[17px] text-[gray]">Playfull Pink/Black</h1>
+                <div class="flex gap-5 max-[600px]:flex-col">
+                  <form class="max-w-[180px] shrink-0 flex items-center gap-3">
+                    <h1 class="text-[18px] text-[gray]">Size</h1>
+                    <select
+                      id="countries"
+                      class="bg-gray-50 border border-gray-300 text-gray-900 text-[17px] rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-1 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-[gray] dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    >
+                      <option selected>M (8-10)</option>
+                      <option>xxl (20-22)</option>
+                      <option>xl (16-18)</option>
+                      <option>s (4-6)</option>
+                      <option>M (8-10)</option>
+                    </select>
+                  </form>
+                  <form class="max-w-[150px] shrink-0 flex items-center gap-3">
+                    <h1 class="text-[18px] text-[gray]">Quantity</h1>
+                    <select
+                      id="countries"
+                      class="bg-gray-50 border border-gray-300 text-gray-900 text-[17px] rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-1 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-[gray] dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    >
+                      <option selected>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                    </select>
+                  </form>
+                </div>
+                <div class="flex gap-8 pt-10">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                    role="img"
+                    width="24px"
+                    height="24px"
+                    fill="none"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      d="M16.794 3.75c1.324 0 2.568.516 3.504 1.451a4.96 4.96 0 010 7.008L12 20.508l-8.299-8.299a4.96 4.96 0 010-7.007A4.923 4.923 0 017.205 3.75c1.324 0 2.568.516 3.504 1.451l.76.76.531.531.53-.531.76-.76a4.926 4.926 0 013.504-1.451"
+                    ></path>
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                    role="img"
+                    width="24px"
+                    height="24px"
+                    fill="none"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-miterlimit="10"
+                      stroke-width="1.5"
+                      d="M14.25 7.5v12m-4.5-12v12M5.25 6v13.5c0 1.24 1.01 2.25 2.25 2.25h9c1.24 0 2.25-1.01 2.25-2.25V5.25h2.75m-2.75 0H21m-12-3h5.25c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5H3"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="text-[22px] gap-14 pt-10 flex flex-col">
+              <div class="">
+                <h1 class="text-[17px]">Shipping</h1>
+                <p class="text-[17px]">
+                  Arrive by Wed, May 15
+                  <a
+                    class="text-[17px] border-b-[1px] border-black w-[70px] pb-1 mx-auto"
+                    href=""
+                    >Edit location</a
+                  >
+                </p>
+              </div>
+
+              <div class="">
+                <p class="text-[17px]">Free Pickup</p>
+                <p class="text-[17px]">
+                  Find a Store
+                  <a
+                    class="text-[17px] border-b-[1px] border-black w-[70px] pb-1 mx-auto"
+                    href=""
+                    >Find a Store</a
+                  >
+                </p>
+              </div>
+            </div>
+          </aside>
+          <!-- <hr class="h-px my-20 bg-gray-200 border-0 dark:bg-gray-300"> -->
+          <aside class="py-5">
+            <h3 class="text-black text-[27px] text-bold">Favorites</h3>
+            <p class="text-[#393737] text-[17px] text-bold">
+              Want to view your favorite ?
+              <a
+                class="text-[17px] border-b-[1px] text-[gray] border-black w-[70px] pb-1 mx-auto"
+                href="joinUs.html"
+                >Join us</a
+              >
+              or
+              <a
+                class="text-[17px] border-b-[1px] text-[gray] border-black w-[70px] pb-1 mx-auto"
+                href=""
+                >Sign-in</a
+              >
+            </p>
+          </aside>
+        </section>
+
+        <section class="w-[100%] px-2">
+          <h1 class="text-[27px] text-bold">Summary</h1>
+          <section class="flex flex-col gap-5">
+            <aside class="flex flex-col pt-5 py-2 gap-3 w-[full]">
+              <div id="accordion-btn" class="flex justify-between">
+                <a class="text-[17px]" href="">Do you have a Promo Code?</a>
+                <div id="plus-icon" class="hidden">
+                  <svg
+                    class="fill-black"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24px"
+                    viewBox="0 -960 960 960"
+                    width="40px"
+                    fill="#e8eaed"
+                  >
+                    <path
+                      d="M480-528 296-344l-56-56 240-240 240 240-56 56-184-184Z"
+                    />
+                  </svg>
+                </div>
+                <div id="close-icon">
+                  <svg
+                    class="fill-black"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24px"
+                    viewBox="0 -960 960 960"
+                    width="40px"
+                    fill="#e8eaed"
+                  >
+                    <path
+                      d="M480-345 240-585l56-56 184 184 184-184 56 56-240 240Z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <section
+                id="accordion-dropdown"
+                class="max-h-0 overflow-hidden transition-all duration-300 ease-in"
+              >
+                <div class="flex gap-2">
+                  <input
+                    class="w-[70%] py-2 rounded-[10px] border-[1px] border-black"
+                    type="text"
+                    value=""
+                  />
+                  <button
+                    class="w-[30%] py-2 rounded-[20px] border-[1px] border-black text-[gray] text-[20px]"
+                  >
+                    Apply
+                  </button>
+                </div>
+              </section>
+              <section class="flex justify-between">
+                <div class="flex gap-4 items-center">
+                  <h3>Subtotal</h3>
+                  <img
+                    class="w-[13px] h-[13px]"
+                    src="../assets/Image/question (1).png"
+                    alt=""
+                  />
+                </div>
+                <div class="py-2">
+                  <h1 class="text-[17px]">$40.00</h1>
+                </div>
+              </section>
+              <section class="flex justify-between">
+                <div class="flex gap-4 items-center">
+                  <h3 class="text-[17px]">Estimated Shipping & Handling</h3>
+                </div>
+                <div class="py-2">
+                  <h1 class="text-[17px]">$8.00</h1>
+                </div>
+              </section>
+              <section class="flex justify-between">
+                <div class="flex gap-4 items-center">
+                  <h3 class="text-[17px]">Estimated Tax</h3>
+                  <img
+                    class="w-[13px] h-[13px]"
+                    src="../assets/Image/question (1).png"
+                    alt=""
+                  />
+                </div>
+                <p class="text-[20px] mb-7">_</p>
+              </section>
+              <section
+                class="flex justify-between border-y-[1px] border-[#d8d6d6] py-7 max-[820px]:border-none"
+              >
+                <div class="flex gap-4 items-center">
+                  <h3 class="text-[17px]">Total</h3>
+                </div>
+                <div class="py-2">
+                  <h1 class="text-[17px]">$48.00</h1>
+                </div>
+              </section>
+              <section class="flex flex-col gap-4 max-[820px]:hidden">
+                <button
+                  class="w-[100%] py-7 rounded-[30px] text-[white] text-[17px] bg-[black]"
+                >
+                  Checkout
+                </button>
+                <button
+                  class="w-[100%] py-10 rounded-[30px] text-[white] text-[17px] bg-[#f0efef]"
+                >
+                  <img
+                    class="mx-auto w-90px h-[14px]"
+                    src="../assets/Image/paypal.png"
+                    alt=""
+                  />
+                </button>
+              </section>
+            </aside>
+          </section>
+        </section>
+      </section>
+    </section>
+    <!-- End Shopping checkout -->
+
+    <!-- Start Product slider section -->
+    <section class="flex justify-center mt-20">
+      <section class="max-w-[70%] max-lg:max-w-[80%] h-full">
+        <div class="scroll-info container">
+          <div class="">
+            <h1 class="text-[30px]">You Might Also link</h1>
+          </div>
+          <!-- push botton to make slider move -->
+          <push-btn-component index-btn="0"> </push-btn-component>
+        </div>
+        <cart-slider-component data-source="cart-slider-data">
+        </cart-slider-component>
+      </section>
+    </section>
+
+    <!-- End Product slider section -->
+
+    <!-- Section link above footer -->
+    <above-footer-component data-source="above-footer-data"> </above-footer-component>
+    <!-- End link above footer -->
+
+    <!-- Start Footer Section -->
+    <footer-component> </footer-component>
+    <!-- End Footer Section -->
+
+    <!-- <script src="../assets/js/add-cart.js"></script> -->
+    <script src="../assets/js/main.js"></script>
+
+    <!-- JS nav bar component -->
+    <script
+      type="module"
+      src="../assets/js/commponent/navbar-component.js"
+    ></script>
+    <!-- JS footer component -->
+    <script
+      type="module"
+      src="../assets/js/commponent/footer-component.js"
+    ></script>
+    <!-- JS card-slider component -->
+    <script
+      type="module"
+      src="../assets/js/commponent/cart-slider-component.js"
+    ></script>
+    <!-- JS push button slider movement functionality -->
+    <script
+      type="module"
+      src="../assets/js/commponent/push-button-component.js"
+    ></script>
+    <!-- JS above footer component -->
+    <script
+      type="module"
+      src="../assets/js/commponent/above-footer-component.js"
+    ></script>
+  </body>
+</html>
